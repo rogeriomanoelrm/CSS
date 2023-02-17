@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+    background-color: black;
+}
+
+        .primeira {
+            background-color: green;
+            height: 100px;
+            width: 100px;
+
+
+        }
+
+        .segunda {
+            width: 200px;
+            height: 200px;
+            background-image: url(imagens/dark-wood.jpg);
+            border-style: double;
+            border-color: yellow;
+            border-width: 10px;
+        }
+
+        .terceira {
+            width: 250px;
+            height: 250px;
+            background: linear-gradient(rgb(19, 19, 31), rgb(137, 160, 137));
+            border-style: solid;
+            border-color: blue;
+            border-width: 3px;
+        }
+
+        .quarta {
+            background-image: url(imagens/azul.jpg);
+            height: 300px;
+            width: 300px;
+            border: dotted greenyellow 5px;
+
+        }
+
+        /* CSS for the element you want to add a moving LED border to */
+.led-border {
+    width: 350px;
+    height: 350px;
+  animation: pulsing 0.5s infinite;
+  background-image: url(imagens/dark-wood.jpg);
+  border-width: 5%;
+}
+
+@keyframes pulsing {
+  0% {
+    box-shadow: 0 0 10px #fff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 60px #0ff, 0 0 70px #0ff;
+  }
+  50% {
+    box-shadow: 0 0 10px #fff, 0 0 20px #ff0, 0 0 30px #ff0, 0 0 40px #ff0, 0 0 50px #ff0, 0 0 60px #ff0, 0 0 70px #ff0;
+  }
+  100% {
+    box-shadow: 0 0 10px #fff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 60px #0ff, 0 0 70px #0ff;
+  }
+ 
+}
+
+
+        
+
+
+    </style>
+</head>
+
+<body>
+    <div class="primeira"></div>
+    <div class="segunda"></div>
+    <div class="terceira"></div>
+    <div class="quarta"></div>
+    <div class="led-border"></div>
+</body>
+
+</html>
