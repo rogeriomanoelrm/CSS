@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .teste {
+            width: 100px;
+            height: 100px;
+            background: red;
+            transition: width 2s;
+        }
+
+        .teste:hover{
+            width: 300px;
+        }
+
+        .primeira {
+            background-color: blue;
+            border-radius: 10px;
+            border-style: ridge;
+            height: 100px;
+
+        }
+
+        .segunda {
+            width: 250px;
+            height: 250px;
+            border-style: double;
+            border-color: yellow;
+            background: linear-gradient(black, white);
+            border-radius: 20px;
+
+        }
+
+        .terceira {
+            background-image: url(imagens/dark-wood.jpg);
+            height: 400px;
+            width: 400px;
+            border-radius: 0px 0px 30px 30px;
+
+        }
+
+        .led-border {
+            width: 350px;
+            height: 350px;
+            animation: pulsing 0.5s infinite;
+            background-image: url(imagens/dark-wood.jpg);
+            border-width: 5%;
+            transition: width 2s, height 2s, transform 2s;
+
+        }
+
+        .led-border:hover{
+            width: 500px;
+            height: 500px;
+            transform: rotate(180deg);
+        }
+
+
+        @keyframes pulsing {
+            0% {
+                box-shadow: 0 0 10px #fff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 60px #0ff, 0 0 70px #0ff;
+            }
+
+            50% {
+                box-shadow: 0 0 10px #fff, 0 0 20px #ff0, 0 0 30px #ff0, 0 0 40px #ff0, 0 0 50px #ff0, 0 0 60px #ff0, 0 0 70px #ff0;
+            }
+
+            100% {
+                box-shadow: 0 0 10px #fff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 60px #0ff, 0 0 70px #0ff;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="primeira"></div>
+    <div class="segunda"></div>
+    <div class="terceira"></div>
+    <div class="led-border"></div>
+    <div class="teste"></div>
+
+
+</body>
+
+</html>
