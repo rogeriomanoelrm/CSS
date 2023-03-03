@@ -1,0 +1,130 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../imagens/bg_site.jpg);
+    display: flex;
+    justify-content: center;
+
+}
+
+#container {
+    background-color: rgba(123, 232, 232, 0.623);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    width: 1190px;
+
+
+}
+
+header img {
+    width: 250px;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 20px;
+    color: aqua;
+
+}
+
+.menu {
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+
+
+a.menu:link {
+    color: #4f0b06
+}
+
+a.menu:visited {
+    color: #b83229
+}
+
+
+a.menu:hover {
+    color: #006922
+}
+
+a.menu:active {
+    color: #b83229
+}
+
+.principal article h1 {
+    color: #4f0b06;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.4rem;
+    margin-top: 20px;
+
+}
+
+.principal article p {
+    color: #006922;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    line-height: 1.8rem;
+    font-size: 1rem;
+    margin-top: 20px;
+
+}
+
+.cardapio p {
+    color: #006922;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+
+
+}
+
+.cardapio h2 {
+    color: #b83229;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+    margin-right: 30px;
+    text-align: center;
+
+
+}
+
+.local p {
+    color: #006922;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 30px;
+    text-align:center;
+
+}
+
+.local h2 {
+    color: #b83229;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.secundaria {
+    display: flex;
+    justify-content: space-between;
+}
+
+section article {
+    text-align: center;
+}
