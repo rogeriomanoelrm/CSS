@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: darkblue;
+        }
+
+        .father {
+            width: 95vw;
+            height: 300px;
+            background-color: yellow;
+            display: flex;
+            margin: 30px;
+            justify-content: space-between;
+
+        }
+
+        .son {
+            width: 380px;
+            height: 250px;
+            background-color: blue;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        .mother {
+            width: 95vw;
+            height: 300px;
+            background-image: linear-gradient(green, yellow);
+            border-radius: 20px;
+            margin: 30px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+
+        }
+
+        .daughter {
+
+            width: 380px;
+            height: 250px;
+            background-color: green;
+            border-radius: 10px;
+            border-style: dashed;
+            border-color: aliceblue;
+            margin: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 8rem;
+            color: beige;
+            border-width: 7px;
+            
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="father">
+        <div class="son"></div>
+        <div class="son"></div>
+        <div class="son"></div>
+        <div class="son"></div>
+    </div>
+
+    <div class="mother">
+        <div class="daughter">1</div>
+        <div class="daughter">2</div>
+    </div>
+
+</body>
+
+</html>
